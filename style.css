@@ -6,8 +6,15 @@ a{
   text-decoration: none;
 }
 
+div{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
 button{
-  height:30pc;
+  text-align: center;
+  height:30px;
   width: 30px;
   color: #F3F3F3;
 }
