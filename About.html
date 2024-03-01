@@ -5,7 +5,18 @@
     <link rel="stylesheet" href="style.css">
   </head>
   <body>
-    <h1> ABOUT ME </h1>
-    <h2>My name is Kartik Suvarna and this is about me :</h2>
+    <h1>Contact Form</h1>
+    <form action="/index.html">
+      <label for="name">Name</label><br>
+      <input type="text" id="name" name="name" required><br>
+      <label for="email">Email</label><br>
+      <input type="email" id="email" name="email" required>
+      <br>
+      <label for="message">Enter Your  message</label>
+      <br>
+      <textarea name="message" rows="10" cols="30" required></textarea> 
+      <br>
+      <button type="POST" onclick="alert('Form Submitted')">Submiit</button> 
+    </form>
   </body>
 </html>

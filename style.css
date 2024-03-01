@@ -12,9 +12,12 @@ div{
   align-items: center;
 }
 
-button{
+.contact{
   text-align: center;
   height:50px;
-  width: 90px;
-  background-color: #0288d1;
+  width: 200px;
+}
+
+form{
+  text-align: center;
 }
